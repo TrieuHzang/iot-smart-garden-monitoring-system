@@ -9,7 +9,7 @@ An IoT-enabled smart garden monitoring and automation system integrating **Embed
 ---
 
 <p align="center">
-  <img src="prototype.png" alt="IoT Smart Garden Monitoring System" width="850px">
+  <img src="prototype.png" alt="IoT Smart Garden Monitoring System" width="700px">
   <br>
   <em>Figure 1: Completed hardware prototype of the IoT Smart Garden Monitoring System</em>
 </p>
@@ -129,7 +129,7 @@ The system operates on a dual-controller architecture:
 ---
 
 <p align="center">
-  <img src="docs/images/system_block_diagram.png" alt="System Block Diagram" width="850px">
+  <img src="system_block_diagram.png" alt="System Block Diagram" width="700px">
   <br>
   <em>Figure 2: System Block Diagram representing the connection between STM32, ESP32, Sensors, and Actuators</em>
 </p>
@@ -232,7 +232,7 @@ The OLED interface displays:
 ## Blynk IoT Dashboard
 
 <p align="center">
-  <img src="docs/images/blynk_dashboard.png" alt="Blynk Dashboard" width="550px">
+  <img src="blynk_dashboard.png" alt="Blynk Dashboard" width="700px">
   <br>
   <em>Figure 3: Blynk IoT Dashboard for remote monitoring</em>
 </p>
