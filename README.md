@@ -1,9 +1,4 @@
 
-
-https://github.com/user-attachments/assets/0c02adfe-12e3-4f91-88ee-1c123889a296
-
-
-
 # IoT Smart Garden Monitoring System (FreeRTOS & IoT Integration)
 
 [![Platform](https://img.shields.io/badge/Platform-STM32%20%7C%20ESP32-blue.svg)](https://github.com)
