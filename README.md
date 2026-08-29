@@ -7,7 +7,6 @@
 
 An IoT-enabled smart garden monitoring and automation system integrating **Embedded Systems**, **FreeRTOS Multitasking**, and **Blynk IoT Cloud** to provide real-time environmental monitoring, automatic irrigation, and remote management for smart agriculture applications.
 
----
 
 <p align="center">
   <img src="docs/images/prototype.png" alt="IoT Smart Garden Monitoring System" width="700px">
@@ -33,7 +32,6 @@ In addition, the system supports selecting different plant profiles, each with c
 
 This project demonstrates how **Embedded Systems, Real-Time Operating Systems (FreeRTOS), and IoT technologies** can be integrated into a practical smart agriculture solution.
 
----
 
 ## Key Features
 
@@ -93,80 +91,15 @@ This project demonstrates how **Embedded Systems, Real-Time Operating Systems (F
   - Stores lighting duration
   - Recovers settings after restart
 
----
-
 ## System Architecture
 
 The system operates on a dual-controller architecture:
 
-```text
-            [ Smartphone ]
-                   │
-             Blynk Dashboard
-                   │
-               Blynk Cloud
-                   │
-                Wi-Fi
-                   │
-              [ ESP32 ]
-     ├── Wi-Fi Communication
-     ├── UART Communication
-     └── Blynk Synchronization
-                   │
-                  UART
-                   │
-        [ STM32F103C8T6 ]
-      ├── FreeRTOS Scheduler
-      ├── Sensor Processing
-      ├── Automatic Control
-      ├── OLED Interface
-      └── Flash Storage
-                   │
-   ┌──────────┬──────────┬──────────┬──────────┐
-   │          │          │          │
- DHT22   Soil Sensor  LDR Sensor  Buttons
-   │          │          │
-   └──────────┴──────────┘
-             │
-      Water Pump & LED
-```
-
----
-
 <p align="center">
-  <img src="system_block_diagram.png" alt="System Block Diagram" width="700px">
+  <img src="docs/images/system_block_diagram.png" alt="System Block Diagram" width="700px">
   <br>
   <em>Figure 2: System Block Diagram representing the connection between STM32, ESP32, Sensors, and Actuators</em>
 </p>
-
----
-
-## System Workflow
-
-```text
-Sensors
-   │
-   ▼
-STM32 FreeRTOS Tasks
-   │
-   ├── Read Sensors
-   ├── Process Data
-   ├── Compare Thresholds
-   ├── Control Pump & LED
-   ├── Update OLED
-   └── Send UART Frame
-             │
-             ▼
-          ESP32
-             │
-             ▼
-       Blynk Cloud
-             │
-             ▼
- Smartphone Dashboard
-```
-
----
 
 ## Hardware Components
 
@@ -184,7 +117,6 @@ STM32 FreeRTOS Tasks
 | Push Buttons | Menu Navigation |
 | Flash Memory | Configuration Storage |
 
----
 
 ## FreeRTOS Task Design
 
@@ -200,7 +132,6 @@ The firmware is organized into multiple independent FreeRTOS tasks:
 
 This multitasking architecture improves responsiveness, simplifies software maintenance, and allows future expansion.
 
----
 
 ## Plant Management
 
@@ -216,7 +147,6 @@ Each profile contains:
 
 Users can switch between plant types using the navigation buttons, allowing the system to automatically adjust monitoring and irrigation behavior.
 
----
 
 ## OLED User Interface
 
@@ -232,12 +162,11 @@ The OLED interface displays:
 - Selected plant profile
 - Historical information
 
----
 
 ## Blynk IoT Dashboard
 
 <p align="center">
-  <img src="blynk_dashboard.png" alt="Blynk Dashboard" width="700px">
+  <img src="docs/images/blynk_dashboard.png" alt="Blynk Dashboard" width="700px">
   <br>
   <em>Figure 3: Blynk IoT Dashboard for remote monitoring</em>
 </p>
@@ -252,31 +181,6 @@ Example datastreams:
 | V3 | Light Intensity |
 | V4 | Pump Status |
 | V5 | LED Status |
-
----
-
-## Project Structure
-
-```text
-iot-smart-garden-monitoring-system
-│
-├── STM32/
-│   ├── Core/
-│   ├── Drivers/
-│   ├── Middlewares/
-│   └── FreeRTOS/
-│
-├── ESP32/
-│   └── smart_garden.ino
-│
-├── docs/
-│   └── images/
-│
-├── README.md
-└── LICENSE
-```
-
----
 
 ## Development Environment
 
@@ -293,7 +197,6 @@ iot-smart-garden-monitoring-system
 - ESP32 Arduino Core
 - Blynk Library
 
----
 
 ## Results
 
@@ -307,8 +210,6 @@ The completed system is capable of:
 - Synchronizing environmental data with Blynk Cloud.
 - Supporting remote monitoring through smartphones.
 - Restoring configuration after power loss using Flash memory.
-
----
 
 ## Future Improvements
 
@@ -324,7 +225,6 @@ The completed system is capable of:
 - Mobile notification service
 - OTA firmware update
 
----
 
 ## Author
 
@@ -332,7 +232,6 @@ The completed system is capable of:
 
 Embedded Systems • IoT • FreeRTOS • STM32 • ESP32
 
----
 
 ## License
 
