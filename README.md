@@ -1,9 +1,16 @@
+<p align="center">
+  <img src="https://hits.sh/github.com/TrieuHzang/iot-smart-garden-monitoring-system.svg?label=Repo%20Traffic&color=0e75b6" alt="Repo Traffic">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/language-C%2FC%2B%2B-brightgreen" alt="Language">
+  <img src="https://img.shields.io/badge/mcu-STM32%20%7C%20ESP32-brightgreen" alt="MCU">
+  <img src="https://img.shields.io/badge/rtos-FreeRTOS-brightgreen" alt="FreeRTOS">
+  <img src="https://img.shields.io/badge/interface-UART-brightgreen" alt="UART">
+  <img src="https://img.shields.io/badge/platform-Blynk-brightgreen" alt="Blynk">
+</p>
 
 # IoT Smart Garden Monitoring System (FreeRTOS & IoT Integration)
-
-[![Platform](https://img.shields.io/badge/Platform-STM32%20%7C%20ESP32-blue.svg)](https://github.com)
-[![Framework](https://img.shields.io/badge/Framework-FreeRTOS%20%7C%20Blynk-green.svg)](https://github.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An IoT-enabled smart garden monitoring and automation system integrating **Embedded Systems**, **FreeRTOS Multitasking**, and **Blynk IoT Cloud** to provide real-time environmental monitoring, automatic irrigation, and remote management for smart agriculture applications.
 
@@ -226,13 +233,17 @@ The completed system is capable of:
 - OTA firmware update
 
 
-## Author
+## Contact & Support
 
-**TrieuHzang**
+**Trieu Ha Giang** - Embedded Systems Engineering Student
 
-Embedded Systems • IoT • FreeRTOS • STM32 • ESP32
+```text
+Thank you for visiting this repository.
+If you have any questions or feedback about the embedded firmware, system architecture, or hardware integration, feel free to reach out directly.
+```
 
+**My contact:**
 
-## License
-
-This project is released under the MIT License.
+[![Email](https://img.shields.io/badge/Email-trieuhagiang1312%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:trieuhagiang1312@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-TrieuHzang-181717?style=flat&logo=github&logoColor=white)](https://github.com/TrieuHzang)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-haazangg-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haazangg/)
