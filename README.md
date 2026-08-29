@@ -10,7 +10,7 @@ An IoT-enabled smart garden monitoring and automation system integrating **Embed
 ---
 
 <p align="center">
-  <img src="prototype.png" alt="IoT Smart Garden Monitoring System" width="700px">
+  <img src="docs/images/prototype.png" alt="IoT Smart Garden Monitoring System" width="700px">
   <br>
   <em>Figure 1: Completed hardware prototype of the IoT Smart Garden Monitoring System</em>
 </p>
